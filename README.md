@@ -42,21 +42,21 @@ mining group and run AutoPhrase to get 3 ranked lists of phrases as well as 2 se
 You can change ```RAW_TRAIN``` to your own corpus and you may also want change ```MODEL``` to a different name.
 
 
-#### Change data
+### Change data
 
 Put your multiple ```.txt``` files in ```default_data/disciplines```.
 
-#### stopwords.txt
+### stopwords.txt
 
 You may try to search online or create your own list. Stopwords are stored in ```data/EN/stopwords.txt```
 
 
-### Related GitHub Repositories
+#### Related GitHub Repositories
 
 *   [SegPhrase](https://github.com/shangjingbo1226/SegPhrase)
 *	[SegPhrase-MultiLingual](https://github.com/remenberl/SegPhrase-MultiLingual)
 
-### Publications
+#### Publications
 
 People who originally made the software:
 

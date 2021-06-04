@@ -16,7 +16,7 @@ echo current file location is $file
 filename=$(basename "$file" | cut -d. -f1)
 echo current file is "$filename"
 
-docker run -d -v "/${PWD}/data":/autophrase/data -v "/${PWD}/models":/autophrase/models -it\
+winpty docker run -d -v "/${PWD}/data":/autophrase/data -v "/${PWD}/models":/autophrase/models -it\
     --name autophrase \
     -e RAW_TRAIN=${file} \
     -e ENABLE_POS_TAGGING=1 \
