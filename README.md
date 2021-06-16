@@ -20,12 +20,14 @@ Ubuntu:
 ## Default Run
 
 #### Phrase Mining Step
+Windows
 ```
 $ ./run.sh EN
 ```
-or
+
+Linux
 ```
-$ ./run.sh FR
+$ sudo bash run.sh EN
 ```
 depending on the language of your data.
 
