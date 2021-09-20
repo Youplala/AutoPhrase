@@ -1,6 +1,15 @@
+## Original GitHub Repository
+
+* [shangjingbo1226/AutoPhrase](https://github.com/shangjingbo1226/AutoPhrase)
+
 # AutoPhrase: Automated Phrase Mining from Massive Text Corpora
 
 AutoPhrase is used to automate quality phrases extraction from massive text corpora. I automated the program using a bash script to process several text files.
+
+#### Related GitHub Repositories
+
+*   [SegPhrase](https://github.com/shangjingbo1226/SegPhrase)
+*	[SegPhrase-MultiLingual](https://github.com/remenberl/SegPhrase-MultiLingual)
 
 ## Requirements
 
@@ -51,12 +60,6 @@ Put your multiple ```.txt``` files in ```default_data/disciplines```.
 ### stopwords.txt
 
 You may try to search online or create your own list. Stopwords are stored in ```data/EN/stopwords.txt```
-
-
-#### Related GitHub Repositories
-
-*   [SegPhrase](https://github.com/shangjingbo1226/SegPhrase)
-*	[SegPhrase-MultiLingual](https://github.com/remenberl/SegPhrase-MultiLingual)
 
 #### Publications
 
